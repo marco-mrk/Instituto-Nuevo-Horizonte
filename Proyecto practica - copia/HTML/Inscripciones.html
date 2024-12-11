@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Incluye Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- para poder usar iconos de bootstrap -->
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/normalize.css">
+    <link rel="icon" href="/img/Imagen2.jpg">
+    <title>Nuevo Horizonte</title>
+</head>
+
+<body>
+
+    <!-- Barra de navegación -->
+    <header class="header">
+        <nav class="navegacion">
+            <!-- Crea una barra de navegación de color claro que se expande en pantallas grandes -->
+            <header class="container-fluid"> <!-- Utiliza container-fluid para que ocupe todo el ancho -->
+
+                <a href="/./index.html" class="logo">
+                    <img src="/img/Imagen2.jpg" alt="Logo Nuevo Horizonte" class="logo-img">
+                    <h1>Nuevo Horizonte</h1>
+                </a>
+
+            </header>
+
+
+            <nav class="navegacion">
+                <a href="/HTML/Ofertas.html" class="navegacion_enlace">Oferta Academica</a>
+                <a href="/HTML/Inscripciones.html" class="navegacion_enlace">Quiero Inscribirme</a>
+                <a href="/HTML/Quienes.html" class="navegacion_enlace">Quienes somos?</a>
+                <a href="/HTML/SeccionNoticias.html" class="navegacion_enlace">Seccion de Notcias</a>
+            </nav>
+
+        </nav>
+    </header>
+
+
+
+
+    <!-- Sección de Inscripción -->
+    <section class="container mt-5">
+        <h2 class="text-center mb-4">Formulario de Inscripción</h2>
+        <form class="formulario">
+            <fieldset>
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label for="nombre">Nombre y Apellido</label>
+                        <input class="input-text" type="text" id="nombre" placeholder="Tu Nombre" required>
+                    </div>
+                    <div class="campo">
+                        <label for="dni">DNI</label>
+                        <input class="input-text" type="tel" id="dni" placeholder="DNI" required>
+                    </div>
+                    <div class="campo">
+                        <label for="telefono">Teléfono</label>
+                        <input class="input-text" type="tel" id="telefono" placeholder="Teléfono" required>
+                    </div>
+                    <div class="campo">
+                        <label for="correo">Correo</label>
+                        <input class="input-text" type="email" id="correo" placeholder="Correo" required>
+                    </div>
+                    <div class="campo">
+                        <label for="localidad">Localidad</label>
+                        <input class="input-text" type="text" id="localidad" placeholder="Localidad" required>
+                    </div>
+                    <div class="campo">
+                        <label for="carrera">Carrera</label>
+                        <select id="carrera" class="input-text" required>
+                            <option value="Desarrollo de Software">Desarrollo de Software</option>
+                            <option value="Seguridad e Higiene">Seguridad e Higiene</option>
+                            <option value="Laboratorio">Laboratorio</option>
+                            <option value="Preparación Física">Preparación Física</option>
+                        </select>
+                    </div>
+                    <div class="text-end">
+                        <input class="boton" type="submit" value="Enviar">
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+    <!-- Footer -->
+
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+
+<div class="contenedor">
+    <footer class="container">
+        <h3>Contáctanos</h3>
+        <div class="row">
+            <div class="col text-start"> <!-- Alinea el contenido a la izquierda -->
+                <p>Llamanos a traves del siguiente numero de celular:</p>
+                <a href="https://wa.me/3885886349" target="_blank">
+                    <p>3885886349</p>
+                </a>
+                <p>Correo Electronico</p>
+                <a href="mailto:info@nuevohorizontebragado.org">Correo@falso.com</a>
+                <p>Buscanos en la siguiente direccion:</p><a
+                    href="https://www.google.com/maps/search/?api=1&query=Patricias+Argentinas+541+San+Salvador+de+Jujuy,+Jujuy"
+                    target="_blank">
+                    <p>Manuel Castellano N°3323 - 47 Hectareas B° Alto Comedero.</p>
+                </a>
+                <p></p>
+
+            </div>
+
+            <div class="col text-end"> <!-- Alinea el contenido a la derecha -->
+                <H1>Ubicanos en:</H1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3637.229497413688!2d-65.2355600246479!3d-24.26871337832033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b077739c761db%3A0x4dbcb07ad6517b37!2sInstituto%20de%20Educaci%C3%B3n%20Superior%20%22Nuevo%20Horizonte%22!5e0!3m2!1ses-419!2sar!4v1733791498889!5m2!1ses-419!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    </footer>
+</div>
+
+</html>

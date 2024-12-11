@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register & Login</title>
+  <link rel="stylesheet" href="login/style.css" />
+  <script src="https://kit.fontawesome.com/9de695efd2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container" id="signIn">
+
+    <h1 class="form-title">Iniciar Sesion</h1>
+    <form action="register.php" method="post">
+
+      <div class="input-group">
+        <i class="fas fa-envelope"></i>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <label for="email">Nombre de usuario</label>
+      </div>
+
+      <div class="input-group">
+        <i class="fas fa-lock"></i>
+        <input type="password" id="password" placeholder="password" required>
+        <label for="password">Contraseña</label>
+      </div>
+      <p class="recover">
+        <a href="#">Recuperar Contraseña</a>
+      </p>
+      <input type="submit" class="btn" value="Inicar Sesion" name="signIn">
+    </form>
+  </div>
+
+</body>
+
+</html>
